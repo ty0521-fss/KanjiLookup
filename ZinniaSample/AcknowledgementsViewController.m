@@ -27,7 +27,7 @@
     NSData *fileData=[NSData dataWithContentsOfFile:path options:NSDataReadingMappedIfSafe error:&error];
     if (fileData.length>0) {
         NSError *stringError;
-        NSAttributedString *ackString=[[NSAttributedString alloc]initWithData:fileData options:nil documentAttributes:nil error:&stringError];
+        NSAttributedString *ackString=[[NSAttributedString alloc]initWithData:fileData options:@{} documentAttributes:nil error:&stringError];
         if (ackString.length>0) {
             self.textView.attributedText=ackString;
         }
