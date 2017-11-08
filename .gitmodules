@@ -1,0 +1,4 @@
+[submodule "iOS-Zinnia-Japanese-Handwriting-Input"]
+	path = iOS-Zinnia-Japanese-Handwriting-Input
+	url = https://github.com/ty0521-fss/iOS-Zinnia-Japanese-Handwriting-Input.git
+	branch = develop
